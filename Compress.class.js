@@ -83,4 +83,3 @@
         }
         return sigString.substring(0, (sigString.length - 1)) + "]";
     }
-}
