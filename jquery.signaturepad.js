@@ -896,18 +896,6 @@ function SignaturePad (selector, options) {
         return compressString;
     }
 
-    , callInflate : function () {
-        var inflate = inflateToJsonSignature(self.getSignatureString());
-
-        return inflate;
-    }
-
-    , callDeflate : function() {
-        var deflate = deflateFromJsonSignature(self.getSignatureString());
-      
-        return deflate;
-    }
-
   })
 }
 
