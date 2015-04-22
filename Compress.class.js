@@ -87,12 +87,11 @@
         }
     }
 
-    $.fn.Compress = function () {
+    $.fn.compress = function () {
       var api = null
 
         api = new Compress();
 
-      return api
+      return api;
     }
 }(jQuery));
-
