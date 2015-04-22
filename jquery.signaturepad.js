@@ -1,3 +1,13 @@
+/**
+ * Usage for accepting signatures:
+ *  $('.sigPad').signaturePad()
+ *
+ * Usage for displaying previous signatures:
+ *  $('.sigPad').signaturePad({displayOnly:true}).regenerate(sig)
+ *  or
+ *  var api = $('.sigPad').signaturePad({displayOnly:true})
+ *  api.regenerate(sig)
+ */
 (function ($) {
 
 function SignaturePad (selector, options) {
@@ -811,9 +821,6 @@ function SignaturePad (selector, options) {
      * @return {Boolean}
      */
     , validateForm : function () { return validateForm() }
-
-
-
   })
 }
 
